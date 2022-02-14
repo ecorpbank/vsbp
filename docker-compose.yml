@@ -1,0 +1,30 @@
+version: "3"
+services:
+  vsbp:
+    build: .
+    ports:
+      - 8080:8080
+    links:
+      - db
+      - internal_site
+    environment:
+      - PGPASSWORD=vsbp
+      - PGDATABASE=vsbp
+      - PGHOST=db:5432
+      - PGUSER=postgres
+    depends_on:
+      - "db"
+
+  client:
+    build: client
+    ports:
+      - 1337:80
+
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=vsbp
+      - POSTGRES_DB=vsbp
+
+  internal_site:
+    build: internal_site

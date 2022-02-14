@@ -1,0 +1,16 @@
+com/ecorpbank/vsbp/LinksController.class
+com/ecorpbank/vsbp/LoginController.class
+com/ecorpbank/vsbp/LinkLister.class
+com/ecorpbank/vsbp/LoginResponse.class
+com/ecorpbank/vsbp/LoginRequest.class
+com/ecorpbank/vsbp/CowController.class
+com/ecorpbank/vsbp/Comment.class
+com/ecorpbank/vsbp/VsbpApplication.class
+com/ecorpbank/vsbp/Unauthorized.class
+com/ecorpbank/vsbp/CommentsController.class
+com/ecorpbank/vsbp/CommentRequest.class
+com/ecorpbank/vsbp/Cowsay.class
+com/ecorpbank/vsbp/User.class
+com/ecorpbank/vsbp/Postgres.class
+com/ecorpbank/vsbp/BadRequest.class
+com/ecorpbank/vsbp/ServerError.class
